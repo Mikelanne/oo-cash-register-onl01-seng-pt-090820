@@ -14,7 +14,7 @@ class CashRegister
    @total += price * quantity
    if quantity > 1 
      counter = 0 
-     
+     while count 
   end 
   
   def apply_discount
