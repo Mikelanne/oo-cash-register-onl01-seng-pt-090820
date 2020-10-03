@@ -38,5 +38,6 @@ end
   else 
     @total = 0.to_f
   end 
+  end 
   
 end 
