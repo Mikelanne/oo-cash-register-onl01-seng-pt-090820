@@ -20,7 +20,7 @@ class CashRegister
       end 
     else 
      @items << title
-     @last_transaction_price.to_f = @price
+     @last_transaction_price = @price
    end 
   end 
   
