@@ -35,7 +35,7 @@ end
   
   def void_last_transaction
     @total -= @last_transaction_price
-    @total
+    @total.to_f
   end 
   
 end 
