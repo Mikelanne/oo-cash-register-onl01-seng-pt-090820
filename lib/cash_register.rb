@@ -18,8 +18,8 @@ class CashRegister
         @items << title
         counter += 1
       end 
-      @items << title
     end 
+     @items << title
   end 
   
   def apply_discount
