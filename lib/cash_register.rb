@@ -35,7 +35,7 @@ end
   
   def void_last_transaction
     @total -= @last_transaction_price
-    if @total == 0 
+    if @total = 0 
       "0.0"
     end 
   end 
