@@ -17,10 +17,10 @@ class CashRegister
       while counter < quantity
         @items << title
         counter += 1
+        @last_transaction_price = @price * quantity
       end 
     else 
      @items << title
-     @last_transaction_price = @price * quantity
    end 
   end 
   
@@ -34,7 +34,6 @@ class CashRegister
 end 
   
   def void_last_transaction
-    binding.pry
     @total -= @last_transaction_price 
   end 
   
