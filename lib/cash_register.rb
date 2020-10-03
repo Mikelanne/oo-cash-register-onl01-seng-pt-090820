@@ -36,7 +36,7 @@ end
     if quantity > 1 
     @total -= @price
   else 
-    @total = 0
+    @total = 0.to_f
   end 
   
 end 
