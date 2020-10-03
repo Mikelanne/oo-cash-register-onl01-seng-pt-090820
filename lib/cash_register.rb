@@ -18,6 +18,7 @@ class CashRegister
         @items << title
         counter += 1
       end 
+      @items << title
     end 
   end 
   
